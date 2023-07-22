@@ -19,6 +19,10 @@ services:
       - SQL_HOST=db
       - SQL_PORT=5432
       - DATABASE=postgres
+      - USE_SPACES=TRUE
+      - AWS_ACCESS_KEY_ID=DO00A37JU7HARMHTMQH4
+      - AWS_SECRET_ACCESS_KEY=/jbP44AftE58MF3jIKRfBRXJJIxMfWBjClveRzuy3Hc
+      - AWS_STORAGE_BUCKET_NAME=papa-space
     depends_on:
       - db
   db:
